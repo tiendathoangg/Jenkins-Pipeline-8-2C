@@ -31,5 +31,10 @@ pipeline {
                 echo "Run integration tests on the staging environment to ensure the application functions as expected."
             }
         }
+        stage("Stage Completed"){
+            steps{
+                echo "Completed"
+            }
+        }
     }
 }
